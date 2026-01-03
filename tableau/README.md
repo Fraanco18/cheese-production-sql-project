@@ -42,9 +42,12 @@ All visualizations are based on a **single consolidated dataset** prepared in SQ
 
 ## 🔗 Tableau Public
 
-📌 **Interactive Dashboard:** *(add Tableau Public link here)*
+📌 **Tableau Public Dashboard:**  
+https://public.tableau.com/app/profile/franco.palomeque/viz/U_S_CheeseProductionHistoricalTrendsCOVIDComparison/ImpactofCOVID-19onU_S_CheeseProduction#1
 
-> Screenshots in this folder represent the final published version of the dashboard.
+
+![Dashboard Preview](dashboard-Impact-of-COVID-19-on-U.S.-Cheese-Production.png)
+
 
 ---
 
