@@ -152,7 +152,7 @@ Potential extensions of this project include:
 
 ## 📁 Project Structure
 
-'''r
+'''text
 cheese-production-sql-project/
 │
 ├── data/
@@ -164,7 +164,6 @@ cheese-production-sql-project/
 │ └── dashboard_screenshots/
 ├── README.md
 '''
-
 ------------------------------------------------------------------------
 
 ## ✨ Key Skills Demonstrated
