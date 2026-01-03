@@ -46,7 +46,7 @@ All visualizations are based on a **single consolidated dataset** prepared in SQ
 https://public.tableau.com/app/profile/franco.palomeque/viz/U_S_CheeseProductionHistoricalTrendsCOVIDComparison/ImpactofCOVID-19onU_S_CheeseProduction#1
 
 
-![Dashboard Preview](dashboard-Impact-of-COVID-19-on-U.S.-Cheese-Production.png)
+![Dashboard Preview](dashboard/dashboard-Impact-of-COVID-19-on-U.S.-Cheese-Production.png)
 
 
 ---
