@@ -137,7 +137,7 @@ The Tableau dashboard presents:
 - State-level rankings  
 - Comparative analysis between multi-year periods  
 
-📌 Tableau Public Dashboard: *(add link here)*
+📌 Tableau Public Dashboard: *https://public.tableau.com/app/profile/franco.palomeque/viz/U_S_CheeseProductionHistoricalTrendsCOVIDComparison/ImpactofCOVID-19onU_S_CheeseProduction#1*
 
 ------------------------------------------------------------------------
 
@@ -154,18 +154,28 @@ Potential extensions of this project include:
 
 ## 📁 Project Structure
 
-'''text
+The repository is organized to reflect a clear end-to-end analytics workflow:
+
 cheese-production-sql-project/
 │
 ├── data/
-│ ├── raw/
-│ └── processed/
+│   ├── raw/
+│   └── processed/
+│
+├── docs/
+│   ├── executive_summary.md
+│   └── conclusion.md
+│
 ├── sql/
-│ └── cheese_cleaning.sql
-├── visualizations/
-│ └── dashboard_screenshots/
-├── README.md
-'''
+│   └── cheese_cleaning.sql
+│
+├── tableau/
+│   ├── dashboard/
+│   ├── visualizations/
+│   └── README.md
+│
+└── README.md
+
 ------------------------------------------------------------------------
 
 ## ✨ Key Skills Demonstrated
