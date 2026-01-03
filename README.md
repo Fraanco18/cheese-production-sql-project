@@ -7,6 +7,8 @@ The goal is to transform raw production data into clear, actionable insights thr
 
 The project is designed as a **portfolio-ready case study**, demonstrating practical data analytics skills applicable to real-world business and policy contexts.
 
+📄 **Executive summary and final conclusions** are available in the [`/docs`](./docs) folder for a high-level overview of findings and takeaways.
+
 ------------------------------------------------------------------------
 
 ## 🎯 Business Problem
