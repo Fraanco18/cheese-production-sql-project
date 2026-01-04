@@ -12,7 +12,6 @@
 -- to verify the integrity of the final dataset.
 -- =====================================================
 
-
 -- ====================================
 -- 1. Create cleaned base table
 -- ====================================
@@ -78,3 +77,22 @@ SELECT
 FROM cheese_analysis_clean
 GROUP BY year, period, state_name
 HAVING COUNT(*) > 1;
+
+-- Check for 'Other/Unknown States' volume
+SELECT
+    year,
+    SUM(production_volume) AS unknown_volume
+FROM cheese_analysis_clean
+WHERE state_name = 'Other/Unknown States'
+GROUP BY year
+ORDER BY year DESC;
+
+-- Check zero production values
+SELECT
+    year,
+    period,
+    state_ansi,
+    production_volume
+FROM cheese_analysis_clean
+WHERE production_volume = 0
+LIMIT 20;
