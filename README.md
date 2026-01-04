@@ -18,7 +18,7 @@ Cheese production is a key component of the U.S. dairy industry, yet production 
 This project aims to answer:
 
 - How has U.S. cheese production evolved over time?
-- Which states dominate production?
+- Which states dominate U.S. cheese production?
 - Is growth consistent across periods or concentrated in recent years?
 
 ------------------------------------------------------------------------
@@ -54,6 +54,23 @@ Key data processing steps performed in SQL:
 The final output is a **single consolidated dataset** optimized for Tableau analysis.
 
 The SQL pipeline is designed to be reproducible and includes **post-creation validation checks** to ensure data integrity.
+
+The SQL workflow is intentionally split into two scripts:
+
+- `cheese_cleaning.sql`  
+  Reproducible data preparation pipeline that:
+  - Cleans and standardizes raw production values
+  - Creates analysis-ready tables
+  - Applies business logic filters
+  - Performs core data validation checks
+
+- `cheese_exploratory_analysis.sql`  
+  Exploratory and analytical SQL queries used to:
+  - Validate assumptions
+  - Answer the project’s core analytical questions
+  - Support insights later visualized in Tableau
+
+This separation reflects real-world analytics workflows, where reproducible pipelines are kept separate from exploratory analysis.
 
 ------------------------------------------------------------------------
 
@@ -155,26 +172,22 @@ Potential extensions of this project include:
 ## 📁 Project Structure
 
 The repository is organized to reflect a clear end-to-end analytics workflow:
-
+```text
 cheese-production-sql-project/
-│
 ├── data/
 │   ├── raw/
 │   └── processed/
-│
 ├── docs/
 │   ├── executive_summary.md
 │   └── conclusion.md
-│
 ├── sql/
-│   └── cheese_cleaning.sql
-│
+│   ├── cheese_cleaning.sql
+│   └── cheese_exploratory_analysis.sql
 ├── tableau/
 │   ├── dashboard/
-│   ├── visualizations/
-│   └── README.md
-│
+│   └── visualizations/
 └── README.md
+```
 
 ------------------------------------------------------------------------
 
