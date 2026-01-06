@@ -203,8 +203,8 @@ cheese-production-sql-project/
 
 ## 👤 Author
 
-**Franco Palomeque**  
-Data Analyst | SQL & Tableau
+**Franco Palomeque**
+Data Analyst — SQL | Business & Product Analytics
 
 ------------------------------------------------------------------------
 
