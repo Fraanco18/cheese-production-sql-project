@@ -11,19 +11,43 @@ The project is designed as a **portfolio-ready case study**, demonstrating pract
 
 📄 **Executive summary and final conclusions** are available in the [`/docs`](./docs) folder for a high-level overview of findings and takeaways.
 
-------------------------------------------------------------------------
+---
 
 ## 🎯 Business Problem
 
-Cheese production is a key component of the U.S. dairy industry, yet production trends, geographic concentration, and long-term growth patterns are not always immediately clear from raw datasets.
+U.S. cheese production is a critical component of the dairy industry, yet long-term production trends, geographic concentration, and structural shifts are not always evident from raw data. The key challenge is understanding how production has evolved over time, which regions dominate output, and whether recent growth reflects sustained structural change or short-term fluctuation.
 
-This project aims to answer:
+This analysis addresses the following strategic questions:
 
 - How has U.S. cheese production evolved over time?
 - Which states dominate U.S. cheese production?
 - Is growth consistent across periods or concentrated in recent years?
 
-------------------------------------------------------------------------
+---
+
+## 🧠 Executive Summary
+
+The analysis shows that U.S. cheese production has experienced sustained long-term growth, with output increasingly concentrated in a small number of states. Recent production gains are not evenly distributed geographically, reinforcing structural dominance rather than broad-based expansion. Overall, the findings suggest that supply planning and industry strategy should focus on structurally strong regions while monitoring concentration risk and long-term capacity trends.
+
+---
+
+## 🔍 Key Insights
+
+- U.S. cheese production exhibits a clear long-term upward trend rather than short-term volatility.
+- Production is highly concentrated in a limited number of states that consistently dominate national output.
+- Growth in recent years reflects structural expansion rather than temporary fluctuations.
+- Cleaned and validated data supports reliable trend analysis and long-term planning.
+
+---
+
+## 💡 Business Recommendations
+
+- Prioritize supply planning and investment decisions in structurally dominant production states.
+- Monitor production concentration risk to avoid over-dependence on a small number of regions.
+- Use long-term production trends as a baseline for capacity forecasting and policy analysis.
+- Complement production data with efficiency and consumption metrics to strengthen strategic planning.
+
+---
 
 ## ❓ Analytical Questions
 
@@ -32,7 +56,7 @@ This project aims to answer:
 3. Which states are the top producers?
 4. How does total production compare between different multi-year periods?
 
-------------------------------------------------------------------------
+---
 
 ## 🛠️ Tools & Technologies
 
@@ -41,7 +65,7 @@ This project aims to answer:
 - **CSV** – final analytics-ready dataset  
 - **GitHub** – project versioning and documentation  
 
-------------------------------------------------------------------------
+---
 
 ## 🔄 Data Preparation & Cleaning
 
@@ -74,32 +98,7 @@ The SQL workflow is intentionally split into two scripts:
 
 This separation reflects real-world analytics workflows, where reproducible pipelines are kept separate from exploratory analysis.
 
-------------------------------------------------------------------------
-
-## 📊 Key Findings
-
-### 1. Long-term Growth
-
-U.S. cheese production shows a **clear upward trend** over time.
-
-- **2015–2018:** ~49.69 billion lbs  
-- **2019–2022:** ~54.22 billion lbs  
-
-This indicates sustained growth rather than short-term fluctuation.
-
-### 2. Geographic Concentration
-
-Production is highly concentrated in a small number of states, which consistently dominate national output.
-
-### 3. Stability Over Time
-
-While seasonal variation exists, overall production remains stable, making the sector suitable for long-term forecasting and planning.
-
-### 4. Data Reliability
-
-After cleaning and validation, the dataset supports reliable and reproducible analysis.
-
-------------------------------------------------------------------------
+---
 
 ## ⚠️ Data Limitations & Considerations
 
@@ -145,7 +144,7 @@ The dataset focuses exclusively on **total production volume** and does not incl
 
 As a result, the analysis describes **what changed**, but not **why it changed**.
 
-------------------------------------------------------------------------
+---
 
 ## 📈 Tableau Dashboard
 
@@ -158,7 +157,7 @@ The Tableau dashboard presents:
 
 📌 Tableau Public Dashboard: *https://public.tableau.com/app/profile/franco.palomeque/viz/U_S_CheeseProductionHistoricalTrendsCOVIDComparison/ImpactofCOVID-19onU_S_CheeseProduction#1*
 
-------------------------------------------------------------------------
+---
 
 ## 🚀 Next Steps
 
@@ -169,7 +168,7 @@ Potential extensions of this project include:
 - Efficiency metrics (production per capita or per facility)  
 - Enhanced interactivity in Tableau (filters, dynamic rankings)  
 
-------------------------------------------------------------------------
+---
 
 ## 📁 Project Structure
 
@@ -191,7 +190,7 @@ cheese-production-sql-project/
 └── README.md
 ```
 
-------------------------------------------------------------------------
+---
 
 ## ✨ Key Skills Demonstrated
 
@@ -201,9 +200,9 @@ cheese-production-sql-project/
 - Data visualization & storytelling  
 - End-to-end project documentation  
 
-------------------------------------------------------------------------
+---
 
-👤 Author
+## 👤 Author
 
 **Franco Palomeque**  
 Data Analyst — SQL | Business & Product Analytics
