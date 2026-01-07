@@ -1,4 +1,6 @@
-# 🧀 Cheese Production Analysis (SQL + Tableau)
+# 🧀 US Cheese Production
+
+SQL-driven analysis of U.S. cheese production data to uncover regional trends, structural shifts over time, and implications for supply planning and industry decision-making.
 
 ## 📌 Project Overview
 
